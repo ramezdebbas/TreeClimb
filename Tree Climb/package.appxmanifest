@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="52583Thatslink.TreeClimb" Version="1.0.0.0" Publisher="CN=44D17C68-1F3E-4223-8D43-0DF0DDE774CA" />
+  <Properties>
+    <DisplayName>Tree Climb</DisplayName>
+    <Description>Tree Climb</Description>
+    <PublisherDisplayName>Thatslink</PublisherDisplayName>
+    <Logo>app-storelogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.0</OSMinVersion>
+    <OSMaxVersionTested>6.2.0</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="index.html">
+      <VisualElements DisplayName="Tree Climb" Logo="app-logo.png" SmallLogo="app-smalllogo.png" Description="Tree Climb" ForegroundText="light" BackgroundColor="#464646">
+        <DefaultTile ShowName="allLogos" />
+        <SplashScreen Image="splashscreen.png" />
+      </VisualElements>
+    </Application>
+  </Applications>
+</Package>
